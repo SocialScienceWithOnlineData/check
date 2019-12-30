@@ -10,4 +10,5 @@ setup(
     description='Interactive low-stakes local micro-assessments for notebook based Python pedagogy, for UC Davis CMN152V',
     packages=find_packages(),
     install_requires=[],
+    license='MIT',
 )
