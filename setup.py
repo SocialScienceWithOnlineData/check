@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='check',
-    version='0.5.0',
+    version='0.5.1',
     url='https://github.com/enfascination/check.git',
     author='Seth Frey',
     author_email='sfrey@ucdavis.edu',
