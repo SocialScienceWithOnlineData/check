@@ -3,9 +3,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='lessoncheck',
+    name='check',
     version='0.5.2',
-    url='https://github.com/enfascination/lessoncheck.git',
+    url='https://github.com/enfascination/check.git',
     author='Seth Frey',
     author_email='sfrey@ucdavis.edu',
     description='Interactive low-stakes local micro-assessments for notebook based Python pedagogy, for UC Davis CMN152V',
