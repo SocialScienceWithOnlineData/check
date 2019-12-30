@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='check',
+    name='lessoncheck',
     version='0.5.1',
     url='https://github.com/enfascination/check.git',
     author='Seth Frey',
