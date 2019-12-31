@@ -162,8 +162,7 @@ def checkcheck(lesson):
       nTotal += 1
       if 'entered' in q and q['correct'] == q['entered']:
         nCorrect += 1
-  return( nCorrect == nTotal )
-            
+  return( nCorrect, nTotal )
 
 if __name__ == "__main__":
   test = 2
