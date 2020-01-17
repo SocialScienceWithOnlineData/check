@@ -1,5 +1,9 @@
 ### Boilerplate
 from IPython.core.display import display, HTML
+# def  display(x):
+#     pass
+# def  HTML(x):
+#     print(x)
 
 ### answers object.  Each q has a code (key) and a correct answer (value).
 answers = {}
@@ -81,6 +85,67 @@ answers['compare_v_assign2'] = {'l':3,'correct':3,'minmul':1,'maxmul':5}
 answers['relative_comparisons1'] = {'l':3,'correct':2,'minmul':1,'maxmul':4}
 answers['relative_comparisons2'] = {'l':3,'correct':4,'minmul':1,'maxmul':4}
 
+answers['list_definitions1'] = {'l':4,'correct':[1, 2, 3]}
+answers['list_definitions2'] = {'l':4,'correct':["1", "2", "3"]} ## could also be [‘1’, ’2’, ’3’]
+answers['list_definitions3'] = {'l':4,'correct':2,'minmul':1,'maxmul':7}
+answers['list_type1'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_indexing1'] = {'l':4,'correct': 5,'minmul':1,'maxmul':5}
+answers['list_indexing2'] = {'l':4,'correct':3,'minmul':1,'maxmul':5}
+answers['list_indexing3'] = {'l':4,'correct':0}
+answers['list_indexing4'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
+answers['list_errors1'] = {'l':4,'correct':6,'minmul':1,'maxmul':6}
+answers['list_slicing1'] = {'l':4,'correct':3,'minmul':1,'maxmul':4}
+answers['list_slicing2'] = {'l':4,'correct':5,'minmul':1,'maxmul':5}
+answers['list_slicing3'] = {'l':4,'correct':5,'minmul':1,'maxmul':5}
+answers['list_slicing4'] = {'l':4,'correct':5,'minmul':1,'maxmul':7}
+answers['list_slicing5'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
+answers['list_slicing6'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_slicing7'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
+answers['list_changes1'] = {'l':4,'correct':5,'minmul':1,'maxmul':6}
+answers['list_changes2'] = {'l':4,'correct':5,'minmul':1,'maxmul':6}
+answers['list_edits1'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_edits2'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_edits3'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_edits4'] = {'l':4,'correct':3,'minmul':1,'maxmul':3}
+answers['list_edits5'] = {'l':4,'correct':3,'minmul':1,'maxmul':3}
+answers['list_edits6'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_edits7'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
+answers['list_edits8'] = {'l':4,'correct':3,'minmul':1,'maxmul':3}
+answers['list_edits9'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
+answers['list_edits10'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
+answers['list_edits11'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['growing_lists1'] = {'l':4,'correct':1,'minmul':1,'maxmul':2}
+answers['growing_lists2'] = {'l':4,'correct':2,'minmul':1,'maxmul':2}
+answers['growing_lists3'] = {'l':4,'correct':3,'minmul':1,'maxmul':4} ## check this one
+answers['growing_lists4'] = {'l':4,'correct':3,'minmul':1,'maxmul':4}
+answers['list_addition1'] = {'l':4,'correct':6,'minmul':1,'maxmul':6}
+answers['list_addition2'] = {'l':4,'correct':4,'minmul':1,'maxmul':6}
+answers['list_addition3'] = {'l':4,'correct':6,'minmul':1,'maxmul':6}
+answers['empty_string1'] = {'l':4,'correct':5,'minmul':1,'maxmul':5}
+answers['empty_string2'] = {'l':4,'correct':3,'minmul':1,'maxmul':4}
+answers['empty_string3'] = {'l':4,'correct':2,'minmul':1,'maxmul':4}
+answers['list_contents1'] = {'l':4,'correct':4,'minmul':1,'maxmul':6}
+answers['list_contents2'] = {'l':4,'correct':4,'minmul':1,'maxmul':4}
+answers['list_contents3'] = {'l':4,'correct':2,'minmul':1,'maxmul':4}
+answers['list_contents4'] = {'l':4,'correct':1,'minmul':1,'maxmul':2}
+answers['list_contents5'] = {'l':4,'correct':2,'minmul':1,'maxmul':2}
+answers['list_contents6'] = {'l':4,'correct':2,'minmul':1,'maxmul':2}
+answers['list_contents7'] = {'l':4,'correct':1,'minmul':1,'maxmul':2}
+answers['list_contents8'] = {'l':4,'correct':2,'minmul':1,'maxmul':2}
+answers['list_counts1'] = {'l':4,'correct':4,'minmul':1,'maxmul':7}
+answers['list_counts2'] = {'l':4,'correct':2,'minmul':1,'maxmul':7}
+answers['list_counts3'] = {'l':4,'correct':6,'minmul':1,'maxmul':7}
+answers['list_counts4'] = {'l':4,'correct':2,'minmul':1,'maxmul':7}
+answers['list_counts5'] = {'l':4,'correct':6,'minmul':1,'maxmul':7}
+answers['list_summarizing1'] = {'l':4,'correct':3}
+answers['list_summarizing2'] = {'l':4,'correct':18}
+answers['list_summarizing3'] = {'l':4,'correct':2}
+answers['list_summarizing4'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
+answers['list_transforming1'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
+answers['list_transforming2'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_transforming3'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_transforming4'] = {'l':4,'correct':3,'minmul':1,'maxmul':3}
+answers['list_transforming5'] = {'l':4,'correct':3,'minmul':1,'maxmul':8}
 
 ###  styling of user feedback
 stylehtml =  """
@@ -162,13 +227,15 @@ def checkcheck(lesson):
       nTotal += 1
       if 'entered' in q and q['correct'] == q['entered']:
         nCorrect += 1
+      #else:
+        #print( qid , q, lesson)
   return( nCorrect, nTotal )
 
 if __name__ == "__main__":
-  test = 2
-  if test == 0:
-    print( checkcheck(1) )
-  elif test == 1:
+  test = 4
+  if test == 1:
+    print( checkcheck(2) )
+  elif test == 2:
     check('try_it_out', 8 )
     # Arithmetic
     check('leading_zero', 1 )
@@ -209,8 +276,8 @@ if __name__ == "__main__":
     check('reassignment5', 9)
     check('reassignment6', 5)
     check('reassignment7', 7)
-    print( checkcheck(1) )
-  elif test == 2:
+    print( checkcheck(2) )
+  elif test == 3:
     # Errors
     check('errors1', 4)
     # Type
@@ -252,4 +319,68 @@ if __name__ == "__main__":
     check('compare_v_assign2', 3)
     check('relative_comparisons1', 2)
     check('relative_comparisons2', 4)
-    print( checkcheck(2) )
+    print( checkcheck(3) )
+  elif test == 4:
+    # Lists
+    check('list_definitions1', [1,2,3])
+    check('list_definitions2', ['1', '2', '3'])
+    check('list_definitions3', 2)
+    check('list_type1', 2)
+    check('list_indexing1', 5)
+    check('list_indexing2', 3)
+    check('list_indexing3', 0)
+    check('list_indexing4', 1)
+    check('list_errors1', 6)
+    check('list_changes1', 5)
+    check('list_changes2', 5)
+    check('list_edits1', 2)
+    check('list_edits2', 2)
+    check('list_edits3', 2)
+    check('list_edits4', 3)
+    check('list_edits5', 3)
+    check('list_edits6', 2)
+    check('list_edits7', 1 )
+    check('list_edits8', 3)
+    check('list_edits9', 1)
+    check('list_edits10', 1)
+    check('list_edits11', 2)
+    check('growing_lists1', 1)
+    check('growing_lists2', 2)
+    check('growing_lists3', 3)
+    check('growing_lists4', 3)
+    check('list_slicing1', 3)
+    check('list_slicing2', 5)
+    check('list_slicing3', 5)
+    check('list_slicing4', 5)
+    check('list_slicing5', 1)
+    check('list_slicing6', 2)
+    check('list_slicing7', 1)
+    check('list_addition1', 6)
+    check('list_addition2', 4)
+    check('list_addition3', 6)
+    check('empty_string1', 5)
+    check('empty_string2', 3)
+    check('empty_string3', 2)
+    check('list_contents1', 4)
+    check('list_contents2', 4)
+    check('list_contents3', 2)
+    check('list_contents4', 1)
+    check('list_contents5', 2)
+    check('list_contents6', 2)
+    check('list_contents7', 1)
+    check('list_contents8', 2)
+    check('list_counts1', 4)
+    check('list_counts2', 2)
+    check('list_counts3', 6)
+    check('list_counts4', 2)
+    check('list_counts5', 6)
+    check('list_summarizing1', 3)
+    check('list_summarizing2', 18)
+    check('list_summarizing3', 2)
+    check('list_summarizing4', 1)
+    check('list_transforming1', 1)
+    check('list_transforming2', 2)
+    check('list_transforming3', 2)
+    check('list_transforming4', 3)
+    check('list_transforming5', 3)
+    print( checkcheck(4) )
