@@ -114,6 +114,7 @@ answers['list_edits8'] = {'l':4,'correct':3,'minmul':1,'maxmul':3}
 answers['list_edits9'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
 answers['list_edits10'] = {'l':4,'correct':1,'minmul':1,'maxmul':3}
 answers['list_edits11'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
+answers['list_edits12'] = {'l':4,'correct':3,'minmul':1,'maxmul':3}
 answers['growing_lists1'] = {'l':4,'correct':1,'minmul':1,'maxmul':2}
 answers['growing_lists2'] = {'l':4,'correct':2,'minmul':1,'maxmul':2}
 answers['growing_lists3'] = {'l':4,'correct':3,'minmul':1,'maxmul':4} ## check this one
@@ -146,6 +147,29 @@ answers['list_transforming2'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
 answers['list_transforming3'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
 answers['list_transforming4'] = {'l':4,'correct':3,'minmul':1,'maxmul':3}
 answers['list_transforming5'] = {'l':4,'correct':3,'minmul':1,'maxmul':8}
+
+answers['loop1'] = {'l':5,'correct':1 ,'minmul':1,'maxmul':5}
+answers['loop2'] = {'l':5,'correct':6,'minmul':1,'maxmul':6}
+answers['loop3'] = {'l':5,'correct':5,'minmul':1,'maxmul':8}
+answers['loop4'] = {'l':5,'correct':4,'minmul':1,'maxmul':5}
+answers['loop5'] = {'l':5,'correct':4,'minmul':1,'maxmul':4}
+answers['loop6'] = {'l':5,'correct':3,'minmul':1,'maxmul':4}
+answers['loop7'] = {'l':5,'correct':1,'minmul':1,'maxmul':5}
+answers['replace1'] = {'l':5,'correct':3,'minmul':1,'maxmul':5}
+answers['replace2'] = {'l':5,'correct':2,'minmul':1,'maxmul':4}
+answers['replace3'] = {'l':5,'correct':1,'minmul':1,'maxmul':4}
+answers['growdata1'] = {'l':5,'correct':4,'minmul':1,'maxmul':6}
+answers['growdata2'] = {'l':5,'correct':5,'minmul':1,'maxmul':6}
+answers['growdata3'] = {'l':5,'correct':4,'minmul':1,'maxmul':5}
+answers['growdata4'] = {'l':5,'correct':2,'minmul':1,'maxmul':5}
+answers['forloop1'] = {'l':5,'correct':5,'minmul':1,'maxmul':6}
+answers['forloop2'] = {'l':5,'correct':5,'minmul':1,'maxmul':6}
+answers['forloop3'] = {'l':5,'correct':5,'minmul':1,'maxmul':6}
+answers['forloop4'] = {'l':5,'correct':4,'minmul':1,'maxmul':8}
+answers['forloop5'] = {'l':5,'correct':1,'minmul':1,'maxmul':8}
+answers['forloop6'] = {'l':5,'correct':1,'minmul':1,'maxmul':8}
+answers['forloop7'] = {'l':5,'correct':3,'minmul':1,'maxmul':8}
+
 
 ###  styling of user feedback
 stylehtml =  """
@@ -344,6 +368,7 @@ if __name__ == "__main__":
     check('list_edits9', 1)
     check('list_edits10', 1)
     check('list_edits11', 2)
+    check('list_edits12', 3)
     check('growing_lists1', 1)
     check('growing_lists2', 2)
     check('growing_lists3', 3)
@@ -384,3 +409,28 @@ if __name__ == "__main__":
     check('list_transforming4', 3)
     check('list_transforming5', 3)
     print( checkcheck(4) )
+  elif test == 5:
+    check('loop1', 1)
+    check('loop2', 6)
+    check('loop3', 5)
+    check('loop4', 4)
+    check('loop5', 4)
+    check('loop6', 3)
+    check('loop7', 1)
+
+    check('replace1', 3)
+    check('replace2', 2)
+    check('replace3', 1)
+    check('growdata1', 4)
+    check('growdata2', 5)
+    check('growdata3', 4)
+    check('growdata4', 2)
+
+    check('forloop1', 5)
+    check('forloop2', 5)
+    check('forloop3', 5)
+    check('forloop4', 4)
+    check('forloop5', 1)
+    check('forloop6', 1)
+    check('forloop7', 3)
+    print( checkcheck( 5 ))
