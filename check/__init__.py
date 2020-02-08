@@ -169,6 +169,49 @@ answers['forloop4'] = {'l':5,'correct':4,'minmul':1,'maxmul':8}
 answers['forloop5'] = {'l':5,'correct':1,'minmul':1,'maxmul':8}
 answers['forloop6'] = {'l':5,'correct':1,'minmul':1,'maxmul':8}
 answers['forloop7'] = {'l':5,'correct':3,'minmul':1,'maxmul':8}
+#6
+answers['loopcond1'] = {'l':6,'correct':3,'minmul':1,'maxmul':4}
+answers['loopcond2'] = {'l':6,'correct':2,'minmul':1,'maxmul':4}
+answers['loopcond3'] = {'l':6,'correct':1,'minmul':1,'maxmul':4}
+answers['loopcond4'] = {'l':6,'correct':4,'minmul':1,'maxmul':7}
+answers['loopcond5'] = {'l':6,'correct':1,'minmul':1,'maxmul':3}
+answers['loopcond6'] = {'l':6,'correct':3,'minmul':1,'maxmul':5}
+answers['loopcond7'] = {'l':6,'correct':4,'minmul':1,'maxmul':4}
+answers['loopcond8'] = {'l':6,'correct':7,'minmul':1,'maxmul':7}
+answers['iflong1'] = {'l':6,'correct':6,'minmul':1,'maxmul':7}
+answers['iflong2'] = {'l':6,'correct':7,'minmul':1,'maxmul':7}
+answers['iflong3'] = {'l':6,'correct':6,'minmul':1,'maxmul':7}
+answers['iflong4'] = {'l':6,'correct':2,'minmul':1,'maxmul':6}
+answers['iflong5'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
+answers['iflong6'] = {'l':6,'correct':1,'minmul':1,'maxmul':4}
+answers['ifflow1'] = {'l':6,'correct':2,'minmul':1,'maxmul':7}
+answers['ifflow2'] = {'l':6,'correct':4,'minmul':1,'maxmul':7}
+answers['ifflow3'] = {'l':6,'correct':7,'minmul':1,'maxmul':7}
+answers['ifflow4'] = {'l':6,'correct':6,'minmul':1,'maxmul':7}
+answers['ifflow5'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
+answers['ifflow6'] = {'l':6,'correct':3,'minmul':1,'maxmul':7}
+answers['ifflow7'] = {'l':6,'correct':6,'minmul':1,'maxmul':6}
+answers['ifflow8'] = {'l':6,'correct':4,'minmul':1,'maxmul':6}
+answers['ifflow9'] = {'l':6,'correct':5,'minmul':1,'maxmul':5}
+answers['ifflow10'] = {'l':6,'correct':6,'minmul':1,'maxmul':7}
+answers['ifflow11'] = {'l':6,'correct':6,'minmul':1,'maxmul':7}
+answers['ifflow12'] = {'l':6,'correct':2,'minmul':1,'maxmul':7}
+answers['ifflow13'] = {'l':6,'correct':2,'minmul':1,'maxmul':5}
+answers['ifflow14'] = {'l':6,'correct':4,'minmul':1,'maxmul':8}
+answers['filter1'] = {'l':6,'correct':4,'minmul':1,'maxmul':10}
+answers['filter2'] = {'l':6,'correct':9,'minmul':1,'maxmul':10}
+answers['filter3'] = {'l':6,'correct':2,'minmul':1,'maxmul':10}
+answers['filter4'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
+answers['filter5'] = {'l':6,'correct':3,'minmul':1,'maxmul':5}
+answers['filter6'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
+answers['filter7'] = {'l':6,'correct':2,'minmul':1,'maxmul':6}
+answers['listmerge1'] = {'l':6,'correct':7,'minmul':1,'maxmul':7}
+answers['listmerge2'] = {'l':6,'correct':4,'minmul':1,'maxmul':5}
+answers['listmerge3'] = {'l':6,'correct':2,'minmul':1,'maxmul':8}
+answers['anagrammer1'] = {'l':6,'correct':4,'minmul':1,'maxmul':6}
+answers['anagrammer2'] = {'l':6,'correct':5,'minmul':1,'maxmul':6}
+answers['anagrammer3'] = {'l':6,'correct':4,'minmul':1,'maxmul':8}
+answers['anagrammer4'] = {'l':6,'correct':8,'minmul':1,'maxmul':8}
 
 
 ###  styling of user feedback
@@ -256,7 +299,7 @@ def checkcheck(lesson):
   return( nCorrect, nTotal )
 
 if __name__ == "__main__":
-  test = 4
+  test = 6
   if test == 1:
     print( checkcheck(2) )
   elif test == 2:
@@ -434,3 +477,47 @@ if __name__ == "__main__":
     check('forloop6', 1)
     check('forloop7', 3)
     print( checkcheck( 5 ))
+  elif test == 6:
+    check('loopcond1', 3), 4
+    check('loopcond2', 2), 4
+    check('loopcond3', 1), 1
+    check('loopcond4', 4), 7
+    check('loopcond5', 1), 3
+    check('loopcond6', 3), 5
+    check('loopcond7', 4), 4
+    check('loopcond8', 7), 7
+    check('iflong1', 6), 7
+    check('iflong2', 7), 7
+    check('iflong3', 6), 7
+    check('iflong4', 2), 6
+    check('iflong5', 1), 5
+    check('iflong6', 1), 4
+    check('ifflow1', 2), 7
+    check('ifflow2', 4), 7
+    check('ifflow3', 7), 7
+    check('ifflow4', 6), 7
+    check('ifflow5', 1), 5
+    check('ifflow6', 3), 4
+    check('ifflow7', 6), 6
+    check('ifflow8', 4), 6
+    check('ifflow9', 5), 5
+    check('ifflow10', 6), 7
+    check('ifflow11', 6), 7
+    check('ifflow12', 2), 7
+    check('ifflow13', 2), 5
+    check('ifflow14', 4), 8
+    check('filter1', 4), 10 
+    check('filter2', 9), 10
+    check('filter3', 2), 10
+    check('filter4', 1), 5 
+    check('filter5', 3), 5 
+    check('filter6', 1), 5 
+    check('filter7', 2), 6 
+    check('listmerge1', 7), 7
+    check('listmerge2', 4), 5
+    check('listmerge3', 2), 8 
+    check('anagrammer1', 4), 6
+    check('anagrammer2', 5), 6
+    check('anagrammer3', 4), 8
+    check('anagrammer4', 8), 8
+    print( checkcheck( 6 ))
