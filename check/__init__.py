@@ -169,6 +169,7 @@ answers['forloop4'] = {'l':5,'correct':4,'minmul':1,'maxmul':8}
 answers['forloop5'] = {'l':5,'correct':1,'minmul':1,'maxmul':8}
 answers['forloop6'] = {'l':5,'correct':1,'minmul':1,'maxmul':8}
 answers['forloop7'] = {'l':5,'correct':3,'minmul':1,'maxmul':8}
+
 #6
 answers['loopcond1'] = {'l':6,'correct':3,'minmul':1,'maxmul':4}
 answers['loopcond2'] = {'l':6,'correct':2,'minmul':1,'maxmul':4}
@@ -213,6 +214,47 @@ answers['anagrammer2'] = {'l':6,'correct':5,'minmul':1,'maxmul':6}
 answers['anagrammer3'] = {'l':6,'correct':4,'minmul':1,'maxmul':8}
 answers['anagrammer4'] = {'l':6,'correct':8,'minmul':1,'maxmul':8}
 
+#7
+answers['dict_type1'] = {'l':7,'correct':2,'minmul':1,'maxmul':6}
+answers['dict_type2'] = {'l':7,'correct':3,'minmul':1,'maxmul':6}
+answers['dict_parts1'] = {'l':7,'correct':3,'minmul':1,'maxmul':6}
+answers['dict_parts2'] = {'l':7,'correct':7,'minmul':1,'maxmul':7}
+answers['dict_parts3'] = {'l':7,'correct':5,'minmul':1,'maxmul':7}
+answers['dict_index1'] = {'l':7,'correct':6,'minmul':1,'maxmul':7}
+answers['dict_index2'] = {'l':7,'correct':6,'minmul':1,'maxmul':6}
+answers['dict_index3'] = {'l':7,'correct':4,'minmul':1,'maxmul':8}
+answers['dict_usage1'] = {'l':7,'correct':1,'minmul':1,'maxmul':4}
+answers['dict_usage2'] = {'l':7,'correct':1,'minmul':1,'maxmul':4}
+answers['dict_in1'] = {'l':7,'correct':3,'minmul':1,'maxmul':6}
+answers['dict_in2'] = {'l':7,'correct':3,'minmul':1,'maxmul':6}
+answers['dict_in3'] = {'l':7,'correct':1,'minmul':1,'maxmul':5}
+answers['dict_in4'] = {'l':7,'correct':3,'minmul':1,'maxmul':5}
+answers['dict_change1'] = {'l':7,'correct':1,'minmul':1,'maxmul':5}
+answers['dict_change2'] = {'l':7,'correct':3,'minmul':1,'maxmul':5}
+answers['dict_purpose1'] = {'l':7,'correct':2,'minmul':1,'maxmul':3}
+answers['dict_purpose2'] = {'l':7,'correct':3,'minmul':1,'maxmul':3}
+answers['dict_purpose3'] = {'l':7,'correct':2,'minmul':1,'maxmul':3}
+answers['dict_purpose4'] = {'l':7,'correct':2,'minmul':1,'maxmul':3}
+answers['dict_purpose5'] = {'l':7,'correct':3,'minmul':1,'maxmul':3}
+answers['dict_of_lists1'] = {'l':7,'correct':1,'minmul':1,'maxmul':8}
+answers['dict_of_lists2'] = {'l':7,'correct':4,'minmul':1,'maxmul':8}
+answers['dict_of_lists3'] = {'l':7,'correct':1,'minmul':1,'maxmul':8}
+answers['dict_of_lists4'] = {'l':7,'correct':7,'minmul':1,'maxmul':8}
+answers['dict_of_lists5'] = {'l':7,'correct':6,'minmul':1,'maxmul':8}
+answers['dict_of_dicts1'] = {'l':7,'correct':5,'minmul':1,'maxmul':10}
+answers['dict_of_dicts2'] = {'l':7,'correct':4,'minmul':1,'maxmul':10}
+answers['dict_of_dicts3'] = {'l':7,'correct':1,'minmul':1,'maxmul':10}
+answers['dict_of_dicts4'] = {'l':7,'correct':3,'minmul':1,'maxmul':10}
+answers['dict_of_dicts5'] = {'l':7,'correct':2,'minmul':1,'maxmul':10}
+answers['dict_of_dicts6'] = {'l':7,'correct':5,'minmul':1,'maxmul':10}
+answers['dict_looping1'] = {'l':7,'correct':4,'minmul':1,'maxmul':6}
+answers['dict_looping2'] = {'l':7,'correct':5,'minmul':1,'maxmul':9}
+answers['dict_looping3'] = {'l':7,'correct':2,'minmul':1,'maxmul':5}
+answers['dict_looping4'] = {'l':7,'correct':5,'minmul':1,'maxmul':8}
+answers['dict_looping5'] = {'l':7,'correct':4,'minmul':1,'maxmul':8}
+answers['dict_looping6'] = {'l':7,'correct':5,'minmul':1,'maxmul':8}
+answers['dicts_as_data1'] = {'l':7,'correct':4,'minmul':1,'maxmul':6}
+answers['dicts_as_data2'] = {'l':7,'correct':1,'minmul':1,'maxmul':4}
 
 ###  styling of user feedback
 stylehtml =  """
@@ -299,7 +341,7 @@ def checkcheck(lesson):
   return( nCorrect, nTotal )
 
 if __name__ == "__main__":
-  test = 6
+  test = 7
   if test == 1:
     print( checkcheck(2) )
   elif test == 2:
@@ -521,3 +563,45 @@ if __name__ == "__main__":
     check('anagrammer3', 4), 8
     check('anagrammer4', 8), 8
     print( checkcheck( 6 ))
+  elif test == 7:
+    check('dict_type1', 2), 6
+    check('dict_type2', 3), 6
+    check('dict_parts1', 3), 6
+    check('dict_parts2', 7), 7
+    check('dict_parts3', 5), 7
+    check('dict_index1', 6), 7
+    check('dict_index2', 6), 6
+    check('dict_index3', 4), 8
+    check('dict_usage1', 1), 4
+    check('dict_usage2', 1), 4
+    check('dict_in1', 3), 6
+    check('dict_in2', 3), 6
+    check('dict_in3', 1), 5
+    check('dict_in4', 3), 5
+    check('dict_change1', 1), 5
+    check('dict_change2', 3), 5
+    check('dict_purpose1', 2), 3 
+    check('dict_purpose2', 3), 3
+    check('dict_purpose3', 2), 3
+    check('dict_purpose4', 2), 3
+    check('dict_purpose5', 3), 3
+    check('dict_of_lists1', 1), 8
+    check('dict_of_lists2', 4), 8
+    check('dict_of_lists3', 1), 8
+    check('dict_of_lists4', 7), 8
+    check('dict_of_lists5', 6), 8
+    check('dict_of_dicts1', 5), 10
+    check('dict_of_dicts2', 4), 10
+    check('dict_of_dicts3', 1), 10
+    check('dict_of_dicts4', 3), 10 
+    check('dict_of_dicts5', 2), 10
+    check('dict_of_dicts6', 5), 10
+    check('dict_looping1', 4), 6 
+    check('dict_looping2', 5), 9
+    check('dict_looping3', 2), 5 
+    check('dict_looping4', 5), 8 
+    check('dict_looping5', 4), 8
+    check('dict_looping6', 5), 8
+    check('dicts_as_data1', 4), 6
+    check('dicts_as_data2', 1), 4
+    print( checkcheck( 7 ))
