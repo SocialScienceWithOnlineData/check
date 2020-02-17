@@ -256,6 +256,45 @@ answers['dict_looping6'] = {'l':7,'correct':5,'minmul':1,'maxmul':8}
 answers['dicts_as_data1'] = {'l':7,'correct':4,'minmul':1,'maxmul':6}
 answers['dicts_as_data2'] = {'l':7,'correct':1,'minmul':1,'maxmul':4}
 
+#8
+answers['function_basic1'] = {'l':8,'correct':6,'minmul':1,'maxmul':9}
+answers['function_def1'] = {'l':8,'correct':1,'minmul':1,'maxmul':5}
+answers['function_def2'] = {'l':8,'correct':4,'minmul':1,'maxmul':5}
+answers['function_def3'] = {'l':8,'correct':4,'minmul':1,'maxmul':5}
+answers['function_def4'] = {'l':8,'correct':3,'minmul':1,'maxmul':5}
+answers['function_workings1'] = {'l':8,'correct':3,'minmul':1,'maxmul':5}
+answers['function_workings2'] = {'l':8,'correct':7,'minmul':1,'maxmul':7}
+answers['function_parts1'] = {'l':8,'correct':1,'minmul':1,'maxmul':5}
+answers['function_parts2'] = {'l':8,'correct':1,'minmul':1,'maxmul':5}
+answers['function_parts3'] = {'l':8,'correct':3,'minmul':1,'maxmul':1}
+answers['function_usage1'] = {'l':8,'correct':10,'minmul':1,'maxmul':10}
+answers['function_usage2'] = {'l':8,'correct':10,'minmul':1,'maxmul':10}
+answers['function_usage3'] = {'l':8,'correct':1,'minmul':1,'maxmul':11}
+answers['function_usage4'] = {'l':8,'correct':2,'minmul':1,'maxmul':8}
+answers['function_usage5'] = {'l':8,'correct':2,'minmul':1,'maxmul':8}
+answers['function_input1'] = {'l':8,'correct':2,'minmul':1,'maxmul':6}
+answers['function_input2'] = {'l':8,'correct':2,'minmul':1,'maxmul':6}
+answers['function_scope1'] = {'l':8,'correct':4,'minmul':1,'maxmul':4}
+answers['function_scope2'] = {'l':8,'correct':4,'minmul':1,'maxmul':4}
+answers['function_scope3'] = {'l':8,'correct':2,'minmul':1,'maxmul':4}
+answers['turtle_nav1'] = {'l':8,'correct':4,'minmul':1,'maxmul':7}
+answers['turtle_nav2'] = {'l':8,'correct':2,'minmul':1,'maxmul':7}
+answers['turtle_nav3'] = {'l':8,'correct':5,'minmul':1,'maxmul':7}
+answers['turtle_nav4'] = {'l':8,'correct':5,'minmul':1,'maxmul':6}
+answers['turtle_thinking1'] = {'l':8,'correct':3,'minmul':1,'maxmul':5}
+answers['turtle_thinking2'] = {'l':8,'correct':2,'minmul':1,'maxmul':7}
+answers['turtle_thinking3'] = {'l':8,'correct':5,'minmul':1,'maxmul':10}
+answers['turtle_function1'] = {'l':8,'correct':1,'minmul':1,'maxmul':6}
+answers['turtle_function2'] = {'l':8,'correct':4,'minmul':1,'maxmul':5}
+answers['turtle_function3'] = {'l':8,'correct':4,'minmul':1,'maxmul':9}
+answers['turtle_function4'] = {'l':8,'correct':1,'minmul':1,'maxmul':6}
+answers['turtle_function5'] = {'l':8,'correct':2,'minmul':1,'maxmul':6}
+answers['turtle_refactor1'] = {'l':8,'correct':5,'minmul':1,'maxmul':8}
+
+
+
+
+
 ###  styling of user feedback
 stylehtml =  """
 <style>
@@ -341,7 +380,7 @@ def checkcheck(lesson):
   return( nCorrect, nTotal )
 
 if __name__ == "__main__":
-  test = 7
+  test = 8
   if test == 1:
     print( checkcheck(2) )
   elif test == 2:
@@ -605,3 +644,38 @@ if __name__ == "__main__":
     check('dicts_as_data1', 4), 6
     check('dicts_as_data2', 1), 4
     print( checkcheck( 7 ))
+  elif test == 8:
+      check('function_basic1', 6), 9
+      check('function_def1', 1), 5
+      check('function_def2', 4), 5
+      check('function_def3', 4), 5
+      check('function_def4', 3), 5
+      check('function_workings1', 3), 5
+      check('function_workings2', 7), 7
+      check('function_parts1', 1), 5
+      check('function_parts2', 1), 5
+      check('function_parts3', 3), 1
+      check('function_usage1', 10), 10
+      check('function_usage2', 10), 10
+      check('function_usage3', 1), 11
+      check('function_usage4', 2), 8
+      check('function_usage5', 2), 8
+      check('function_input1', 2), 6
+      check('function_input2', 2), 6
+      check('function_scope1', 4), 4
+      check('function_scope2', 4), 4 
+      check('function_scope3', 2), 4
+      check('turtle_nav1', 4), 7 
+      check('turtle_nav2', 2), 7 
+      check('turtle_nav3', 5), 7
+      check('turtle_nav4', 5), 6
+      check('turtle_thinking1', 3), 5 
+      check('turtle_thinking2', 2), 7
+      check('turtle_thinking3', 5), 10
+      check('turtle_function1', 1), 6
+      check('turtle_function2', 4), 5
+      check('turtle_function3', 4), 9 
+      check('turtle_function4', 1), 6
+      check('turtle_function5', 2), 6
+      check('turtle_refactor1', 5), 8
+      print( checkcheck( 8 ))
