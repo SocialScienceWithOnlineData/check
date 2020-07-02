@@ -148,7 +148,7 @@ answers['list_transforming3'] = {'l':4,'correct':2,'minmul':1,'maxmul':3}
 answers['list_transforming4'] = {'l':4,'correct':3,'minmul':1,'maxmul':3}
 answers['list_transforming5'] = {'l':4,'correct':3,'minmul':1,'maxmul':8}
 
-answers['loop1'] = {'l':5,'correct':1 ,'minmul':1,'maxmul':5}
+answers['loop1'] = {'l':5,'correct':3 ,'minmul':1,'maxmul':5}
 answers['loop2'] = {'l':5,'correct':6,'minmul':1,'maxmul':6}
 answers['loop3'] = {'l':5,'correct':5,'minmul':1,'maxmul':8}
 answers['loop4'] = {'l':5,'correct':4,'minmul':1,'maxmul':5}
