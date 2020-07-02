@@ -206,9 +206,9 @@ answers['filter4'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
 answers['filter5'] = {'l':6,'correct':3,'minmul':1,'maxmul':5}
 answers['filter6'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
 answers['filter7'] = {'l':6,'correct':2,'minmul':1,'maxmul':6}
-answers['listmerge1'] = {'l':6,'correct':7,'minmul':1,'maxmul':7}
+answers['listmerge1'] = {'l':7,'correct':6,'minmul':1,'maxmul':7}
 answers['listmerge2'] = {'l':6,'correct':4,'minmul':1,'maxmul':5}
-answers['listmerge3'] = {'l':6,'correct':2,'minmul':1,'maxmul':8}
+answers['listmerge3'] = {'l':8,'correct':2,'minmul':1,'maxmul':8}
 answers['anagrammer1'] = {'l':6,'correct':4,'minmul':1,'maxmul':6}
 answers['anagrammer2'] = {'l':6,'correct':5,'minmul':1,'maxmul':6}
 answers['anagrammer3'] = {'l':6,'correct':4,'minmul':1,'maxmul':8}
@@ -534,7 +534,7 @@ if __name__ == "__main__":
     check('list_transforming5', 3)
     print( checkcheck(4) )
   elif test == 5:
-    check('loop1', 1)
+    check('loop1', 3)
     check('loop2', 6)
     check('loop3', 5)
     check('loop4', 4)
@@ -594,7 +594,7 @@ if __name__ == "__main__":
     check('filter5', 3), 5 
     check('filter6', 1), 5 
     check('filter7', 2), 6 
-    check('listmerge1', 7), 7
+    check('listmerge1', 6), 7
     check('listmerge2', 4), 5
     check('listmerge3', 2), 8 
     check('anagrammer1', 4), 6
