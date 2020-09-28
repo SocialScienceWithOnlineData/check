@@ -17,6 +17,7 @@ answers['spaces_in_arithmetic1'] = {'l':2, 'correct':4,'minmul':1,'maxmul':4}
 answers['spaces_in_arithmetic2'] = {'l':2, 'correct':3,'minmul':1,'maxmul':4}
 answers['parentheses'] = {'l':2, 'correct':1,'minmul':1,'maxmul':2}
 # Modules
+answers['notebook_blocks'] = {'l':2, 'correct':1,'minmul':1,'maxmul':4}
 answers['import_syntax1'] = {'l':2, 'correct':2,'minmul':1,'maxmul':3}
 answers['import_syntax2'] = {'l':2, 'correct':2,'minmul':1,'maxmul':3}
 answers['scientific_notation'] = {'l':2, 'correct':3,'minmul':1,'maxmul':5}
@@ -394,6 +395,7 @@ if __name__ == "__main__":
     check('spaces_in_arithmetic2', 3)
     check('parentheses', 1)
     # Modules
+    check('notebook_blocks', 1)
     check('import_syntax1', 2)
     check('import_syntax2', 2)
     check('scientific_notation', 3)
