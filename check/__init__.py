@@ -204,7 +204,7 @@ answers['filter1'] = {'l':6,'correct':4,'minmul':1,'maxmul':10}
 answers['filter2'] = {'l':6,'correct':9,'minmul':1,'maxmul':10}
 answers['filter3'] = {'l':6,'correct':2,'minmul':1,'maxmul':10}
 answers['filter4'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
-answers['filter5'] = {'l':6,'correct':3,'minmul':1,'maxmul':5}
+answers['filter5'] = {'l':6,'correct':4,'minmul':1,'maxmul':5}
 answers['filter6'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
 answers['filter7'] = {'l':6,'correct':2,'minmul':1,'maxmul':6}
 answers['listmerge1'] = {'l':7,'correct':6,'minmul':1,'maxmul':7}
@@ -593,7 +593,7 @@ if __name__ == "__main__":
     check('filter2', 9), 10
     check('filter3', 2), 10
     check('filter4', 1), 5 
-    check('filter5', 3), 5 
+    check('filter5', 4), 5 
     check('filter6', 1), 5 
     check('filter7', 2), 6 
     check('listmerge1', 6), 7
