@@ -207,9 +207,9 @@ answers['filter4'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
 answers['filter5'] = {'l':6,'correct':4,'minmul':1,'maxmul':5}
 answers['filter6'] = {'l':6,'correct':1,'minmul':1,'maxmul':5}
 answers['filter7'] = {'l':6,'correct':2,'minmul':1,'maxmul':6}
-answers['listmerge1'] = {'l':7,'correct':6,'minmul':1,'maxmul':7}
+answers['listmerge1'] = {'l':6,'correct':6,'minmul':1,'maxmul':7}
 answers['listmerge2'] = {'l':6,'correct':4,'minmul':1,'maxmul':5}
-answers['listmerge3'] = {'l':8,'correct':2,'minmul':1,'maxmul':8}
+answers['listmerge3'] = {'l':6,'correct':2,'minmul':1,'maxmul':8}
 answers['anagrammer1'] = {'l':6,'correct':4,'minmul':1,'maxmul':6}
 answers['anagrammer2'] = {'l':6,'correct':5,'minmul':1,'maxmul':6}
 answers['anagrammer3'] = {'l':6,'correct':4,'minmul':1,'maxmul':8}
@@ -381,7 +381,7 @@ def checkcheck(lesson):
   return( nCorrect, nTotal )
 
 if __name__ == "__main__":
-  test = 8
+  test = 6
   if test == 1:
     print( checkcheck(2) )
   elif test == 2:
