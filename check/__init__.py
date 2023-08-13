@@ -356,9 +356,7 @@ def check(key, answer):
         else:
           display(incorrect_with_hint('Select the multiple choice number between {} and {}.'.format(answers[key]['minmul'],answers[key]['maxmul'])))
     elif 'attempts' in answers[key]:
-      if answer in answers[key]:
-        display(incorrect_with_hint(answers[key][answer]))
-      elif answers[key] > 3 and 'hint' in answers[key]:
+      if 'hint' in answers[key] and answers[key]['attempts'] > 3 :
         display(incorrect_with_hint(answers[key]['hint']))
       else:
         display( incorrect )
